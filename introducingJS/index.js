@@ -158,8 +158,39 @@ switch(swtch){
         break;
 }
 
+/* For loops */
 
+for(var i=0; i<5; i++){
+    console.log(i);
+}
 
+// Print values based on length
+
+var names = ["Frodo", "Sam", "Merry", "Pippin"];
+
+for (var i=0; i<names.length; i++){
+    console.log(names[i]);
+}
+
+/* While loops */
+
+var whileName = ["Frodo", "Sam", "Merry", "Pippin"];
+
+var i = 0;
+while(i < whileName.length){
+    console.log(whileName[i] + " While-loop");
+    i++;
+}
+
+/* Do-while */
+
+var whileDoName = ["Frodo", "Sam", "Merry", "Pippin"];
+
+var i = 0;
+do {
+    console.log(whileDoName[i] + " Do-While-loop");
+    i++;
+} while(i < whileDoName.length)
 
 
 
